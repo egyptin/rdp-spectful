@@ -15,7 +15,7 @@ jobs:
         Remove-Item ngrok.zip -Force
 
     - name: Authenticate Ngrok
-      run: .\ngrok.exe authtoken ${{ secrets.NGROK_AUTH_TOKEN }}
+      run: .\ngrok.exe authtoken ${{ secrets.37X9pYfMcsGbjVmdj5xedXmV0hD_4jhZu3MmdBeZdqgZa3Wj6 }}
 
     - name: Enable Remote Desktop
       run: |
